@@ -4,23 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>weniv</title>
+    <link rel="stylesheet" href="./src/reset.css" />
+    <link rel="stylesheet" href="./src/main.css" />
   </head>
   <body>
-    <a> top버튼</a>
+    <a class="btn-top"> top버튼</a>
     <header class="header">
-      <a class="logo" href="/index.html">
-        <h1>위니브</h1>
+      <a id="logo" sclass="logo" href="/index.html">
+        <h1 class="sr-only">위니브</h1>
         <img src="/src/asset/Logo.png" alt="" />
       </a>
-      <nav>
+      <nav class="gnb-nav">
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Character</a></li>
-          <li><a href="#">Curriculum</a></li>
-          <li><a href="#">Recruitment</a></li>
-          <li><a href="#">Store</a></li>
+          <li><a class="gnb-nav-item" href="#">About</a></li>
+          <li><a class="gnb-nav-item" href="#">Character</a></li>
+          <li><a class="gnb-nav-item" href="#">Curriculum</a></li>
+          <li><a class="gnb-nav-item" href="#">Recruitment</a></li>
+          <li><a class="gnb-nav-item" href="#">Store</a></li>
         </ul>
-        <div>
+        <div class="button-group">
           <a href="">로그인</a>
           <a href="">회원가입</a>
         </div>
