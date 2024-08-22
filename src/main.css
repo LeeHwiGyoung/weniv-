@@ -5,9 +5,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
     margin : auto;
-    font-family: 'Pretendard-Regular' sans-serif;
+    font-family: 'Pretendard-Regular' , sans-serif;
 }
 
 :root {
@@ -71,12 +78,37 @@ body {
     color : var(--nav--color);
 }
 
-.button-group {
+.btn-group {
     margin-left : 111.4px;
 }
 
-.button-group a {
+.btn-group a {
     padding : 6px 14px;
     background: #EEEEEE;
     border-radius: 20px;
+}
+
+.btn-login {
+    color : #2E6FF2;
+    font-family: 'Pretendard-Bold' ,sans-serif;
+}
+
+.btn-join {
+    color : var(--sub--color)
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+.search {
+    width: 600px;
+    height: 56px;
+    border-radius: 40px;
+    border : 4px #EEEEEE solid;
+    padding : 18px 0px 18px 32px;
+}
+
+.search::placeholder {
+    color: #5A6A72;
+
 }

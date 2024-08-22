@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="./src/main.css" />
   </head>
   <body>
-    <a class="btn-top"> top버튼</a>
+    <a class="btn-top" href="#logo"> top버튼</a>
     <header class="header">
-      <a id="logo" sclass="logo" href="/index.html">
+      <a id="logo" class="logo" href="/index.html">
         <h1 class="sr-only">위니브</h1>
         <img src="/src/asset/Logo.png" alt="" />
       </a>
@@ -22,9 +22,9 @@
           <li><a class="gnb-nav-item" href="#">Recruitment</a></li>
           <li><a class="gnb-nav-item" href="#">Store</a></li>
         </ul>
-        <div class="button-group">
-          <a href="">로그인</a>
-          <a href="">회원가입</a>
+        <div class="btn-group">
+          <a class="btn-login" href="#">로그인</a>
+          <a class="btn-join" href="#">회원가입</a>
         </div>
       </nav>
     </header>
@@ -32,6 +32,7 @@
       <label for="search"></label>
       <input
         id="search"
+        class="search"
         name="serach"
         type="text"
         placeholder="검색어를 입력해주세요"
