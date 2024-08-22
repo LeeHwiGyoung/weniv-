@@ -100,15 +100,35 @@ form {
     display: flex;
     justify-content: center;
 }
-.search {
+
+.search-box {
+    position: relative;
     width: 600px;
     height: 56px;
+}
+.search-box input {
+    width: 100%;
     border-radius: 40px;
     border : 4px #EEEEEE solid;
     padding : 18px 0px 18px 32px;
 }
 
-.search::placeholder {
+.search-box input::placeholder {
     color: #5A6A72;
+}
 
+.search-box button {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    padding : 0;
+    border : none;
+    background-color: transparent;
+    top :12px;
+    right : 24px;
+}
+
+.search-box button img {
+    width : 100%;
+    height: 100%;
 }
